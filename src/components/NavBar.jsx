@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import axios from 'axios';
 import { BASE_URL } from '../utils/constants';
-import { removeUser } from '../utils/userSlice';
+import { removeUser } from '../utils/userslice';
 import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
