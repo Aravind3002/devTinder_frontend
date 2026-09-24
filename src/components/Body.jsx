@@ -5,7 +5,7 @@ import Footer from './Footer'
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { BASE_URL } from '../utils/constants';
-import { setUser } from '../utils/userSlice'; 
+import { setUser } from '../utils/userslice'; 
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 

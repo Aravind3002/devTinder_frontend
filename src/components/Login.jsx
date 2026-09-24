@@ -2,7 +2,7 @@ import React from 'react'
 import {useState} from 'react';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import { setUser } from '../utils/userSlice';
+import { setUser } from '../utils/userslice';
 import { useNavigate } from 'react-router-dom';
 import { BASE_URL } from '../utils/constants';
 
